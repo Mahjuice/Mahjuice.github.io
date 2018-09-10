@@ -1,0 +1,14 @@
+
+
+  p{
+    background-color: red;
+    padding: 20px;
+  }
+
+  h1{
+    background-color: blue;
+  }
+
+  p,h1{
+    color: white;
+  }

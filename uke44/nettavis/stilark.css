@@ -1,0 +1,36 @@
+
+header{
+  display: grid;
+  grid-template-columns: 2fr 5fr 1fr 1fr 1fr;
+  background-color: grey;
+}
+header>.lenke{
+  align-self: center;
+}
+
+
+body{
+
+}
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  grid-auto-rows: minmax(50px,auto);
+}
+main>section{
+  background-color: red;
+
+}
+.middelsak{
+  grid-row: span 2;
+  grid-column: span 2;
+}
+.litensak{
+
+}
+.storsak{
+  grid-row: span 3;
+  grid-column: span 3;
+
+}

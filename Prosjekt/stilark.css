@@ -2,6 +2,7 @@
 body{
   background-color: black;
   margin: 0;
+  font-family: serif;
 }
 
 
@@ -40,6 +41,7 @@ li a:hover {
 
 article {
       display: grid;
+      color: #e65c00;
       background-color: white;
       margin-left: 10px;
       margin-right: 10px;
@@ -50,6 +52,7 @@ article {
 .bilde1 {
         grid-column: span 3;
         grid-row: span 8;
+
 }
 
 .hovedgrid {
@@ -91,15 +94,44 @@ div {
   margin-top: 20px;
   grid-auto-rows: 50px;
   grid-template-columns: 1fr 1fr 1fr;
+  color: #e65c00;
+  text-transform: uppercase;
+  font-size: 40px;
+
 }
 
 .gamemodegrid>article {
+  display: block;
+  padding: 45px;
   grid-gap: 10px;
   grid-auto-rows: 50px;
-
   grid-template-columns: 1fr 1fr 1fr;
+  background-color: black;
 }
 
+.gamemodegrid2 {
+  display: grid;
+  grid-gap: 20px;
+  margin-top: 20px;
+  grid-auto-rows: 160px;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: #e65c00;
+
+}
+
+.gamemodegrid2>article {
+  display: block;
+  padding-left: 45px;
+  padding-right: 45px;
+  grid-gap: 10px;
+  grid-auto-rows: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: black;
+  align-self: top;
+  text-align: justify;
+  font-size: 17px;
+
+}
 .gamemodebildegrid>article {
   margin-left: 0px;
   margin-right: 0px;
@@ -114,7 +146,6 @@ div {
   margin-top: 80px;
   grid-auto-rows: 50px;
   grid-template-columns: 1fr 1fr 1fr;
-
 }
 
 .weaponsbildegrid {
@@ -133,24 +164,33 @@ div {
   grid-gap: 20px;
   grid-auto-rows: 20px;
   margin-top: 5px;
+  color: #e65c00;
+  background-color: black;
+  text-transform: uppercase;
+  font-size: 40px;
 }
 
 .weaponsbeskrivelsegrid {
   display: grid;
+  grid-template-columns: 1fr 1fr;
   margin-top: 20px;
   grid-auto-rows: 50px;
+  font-size: 20px;
+
 }
 
-.headquarterstekst {
+.specialisttekst {
   width: 690px;
   height: 60px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5px;
   background-color: white;
+  text-transform: uppercase;
+  font-size: 40px;
 }
 
-.headquartersbilde {
+.specialistbilde {
   margin-top: 60px;
   width: 690px;
   height: 220px;
@@ -158,4 +198,51 @@ div {
   margin-right: auto;
   background-color: white;
 
+}
+
+.specialistbilde>article{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+footer{
+  background-color: #666666;
+  margin-top: 20px;
+}
+
+.mellomrom{
+  margin-top: 90px;
+}
+
+.sticky{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.fa {
+  padding: 30px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-left: 630px;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
 }

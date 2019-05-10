@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="nb" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+
+<script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBimr7p6Z7D9cbwvMa-AbHcqGhWMJY5GyQ",
+    authDomain: "registreringsskjema-4668f.firebaseapp.com",
+    databaseURL: "https://registreringsskjema-4668f.firebaseio.com",
+    projectId: "registreringsskjema-4668f",
+    storageBucket: "",
+    messagingSenderId: "381762058660"
+  };
+  firebase.initializeApp(config);
+</script>
+  </head>
+  <body>
+
+    <section>
+          <form id="skjema">
+              <input id="inpNavn" type="text" required placeholder="navn">
+              <input id="inpTelefon" type="text" required placeholder="telefon">
+              <input id="inpEpost" type="text" required placeholder="epost">
+              <button type="submit">Registrer kontakt</button>
+          </form>
+      </section>
+      <section id="secKontakter">
+      </section>
+
+      <!-- Lim inn Firebase-koden din her -->
+      <script src="./main.js" charset="utf-8"></script>
+  </body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="nb" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCMFCwHT3iYMwhK5hCmqiRSXaQgPwDrXlE",
+    authDomain: "sportsbutikk-ce6ea.firebaseapp.com",
+    databaseURL: "https://sportsbutikk-ce6ea.firebaseio.com",
+    projectId: "sportsbutikk-ce6ea",
+    storageBucket: "sportsbutikk-ce6ea.appspot.com",
+    messagingSenderId: "705858020636"
+  };
+  firebase.initializeApp(config);
+</script>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li class="Aktivside"><a href="main.html">Hjem</a></li>
+        <li><a href="drakter.html">Drakter</a></li>
+        <li><a href="sko.html">Sko</a></li>
+        <li><a href="baller.html">Baller</a></li>
+    </header>
+
+    <main>
+      <div class="slideshow">
+        <span id="bildeslide1"></span>
+        <span id="bildeslide2"></span>
+        <span id="bildeslide3"></span>
+        <div class="slideshowbilder">
+          <img src="slideshowbilde1.jpg" class="bildeslide">
+          <img src="slideshowbilde3.jpg" class="bildeslide">
+          <img src="slideshowbilde2.png" class="bildeslide">
+        </div>
+        <div class="slideknapper">
+          <a href="#bildeslide1" class="slider-button"></a>
+          <a href="#bildeslide2" class="slider-button"></a>
+          <a href="#bildeslide3" class="slider-button"></a>
+        </div>
+      </div>
+
+      <section id="bildeknapper">
+        <div  class="hjemmesideBildeKnapper">
+        <a href="drakter.html"> <img src="drakter.jpg"></a>
+          <p>Drakter</p>
+        </div>
+        <div class="hjemmesideBildeKnapper">
+          <a href="sko.html"> <img src="sko.jpg"></a>
+          <p>Sko</p>
+        </div>
+        <div class="hjemmesideBildeKnapper">
+          <a href="baller.html"> <img src="baller.jpg"></a>
+          <p>Baller</p>
+        </div>
+
+      </section>
+
+
+    </main>
+
+    <div>
+      <embed type="video/quicktime" src="https://www.youtube.com/v/xPUGTGOgT0I" class="video">
+    </div>
+
+      <script type="text/javascript">
+
+        const main = document.querySelector("main");
+        const secAlleSko = document.querySelector("secSko");
+        const secAlleDrakter = document.querySelector("secDrakter");
+        const secAlleBaller = document.querySelector("secBaller");
+        const db = firebase.database();
+        const bpl = db.ref("Varer/Drakter/BPL");
+        const laliga = db.ref("Varer/Drakter/LaLiga");
+        const serieA = db.ref("Varer/Drakter/SerieA");
+        const nike = db.ref("Varer/Sko/Nike");
+        const puma = db.ref("Varer/Sko/Puma");
+        const adidas = db.ref("Varer/Sko/Adidas");
+        const nikeballer = db.ref("Varer/Baller/Nike")
+        const pumaballer = db.ref("Varer/Baller/Puma")
+        const adidasballer = db.ref("Varer/Baller/Adidas")
+
+
+
+        function genererHTML(snapshot){
+
+          let parent = snapshot.ref.parent.key;
+          let key = snapshot.key;
+          let sko = snapshot.val();
+          let merke;
+          if(sko["Merke"]){
+            merke = sko["Merke"];
+          }
+          else{
+            merke = parent;
+          }
+          main.innerHTML +=`
+            <section class="varer">
+              <h3>${key}:${sko["Navn"]}</h3>
+              <img src=${sko["ImageURL"]}>
+              <p>Merke: ${merke}</p>
+              <p>${sko.Farge1} - ${sko.Farge2}</p>
+              <p>Pris: ${sko["pris"]}</p>
+
+            </section>
+            `
+        }
+
+        function visDrakter(){
+          main.innerHTML = ``;
+          bpl.orderByChild("Navn").on("child_added",genererHTML);
+          laliga.orderByChild("Navn").on("child_added",genererHTML);
+          serieA.orderByChild("Navn").on("child_added",genererHTML);
+        }
+
+        function visSko(){
+          main.innerHTML = ``;
+          nike.orderByChild("Navn").on("child_added",genererHTML);
+          adidas.orderByChild("Navn").on("child_added",genererHTML);
+          puma.orderByChild("Navn").on("child_added",genererHTML);
+        }
+
+        function visBaller(){
+          main.innerHTML = ``;
+          nikeballer.orderByChild("Navn").on("child_added",genererHTML);
+          adidasballer.orderByChild("Navn").on("child_added",genererHTML);
+          pumaballer.orderByChild("Navn").on("child_added",genererHTML);
+        }
+
+      </script>
+
+
+
+    <footer class="mellomrom">
+        <a href="https://www.facebook.com/torshovfotball/" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/torshovfotball" class="fa fa-twitter"></a>
+        <a href="om_oss.html" class="om_osslink" target="_blank">Om oss</a>
+    </footer>
+
+  </body>
+</html>

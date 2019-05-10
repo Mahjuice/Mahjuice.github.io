@@ -1,0 +1,328 @@
+{
+  "Varer" : {
+    "Drakter" : {
+      "BPL" : {
+        "D001" : {
+          "Navn" : "Liverpool",
+          "ImageURL" : "https://thumblr.uniid.it/product/185254/584001ec4052.jpg",
+          "Farge1" : "Rød",
+          "Farge2" : "Hvit",
+          "Merke" : "New Balance",
+          "Pris"  : "899,-",
+          "Beskrivelse" : "Liverpool har noen av verdens mest lidenskapelige supportere og det er vanskelig å ikke la seg imponere av de. Det er noe helt spesielt å høre You'll Never Walk Alone bli sunget av The Kop og resten av Anfield, hvor klubben spiller sine hjemmekamper. The Reds har vunnet 18 engelske ligatitler og er mer sulten enn noensinne på et nytt trofé."
+        },
+        "D002" : {
+          "Navn" : "West Ham United",
+          "ImageURL" : "https://thumblr.uniid.it/product/176723/12fcf14caec0.jpg",
+          "Farge1" : "Lilla",
+          "Farge2" : "Blå",
+          "Merke" : "Umbro",
+          "Pris"  : "899,-",
+          "Beskrivelse" : "The Hammers, The Irons eller bare West Ham United, er en klubb fra Øst-London. Selv om de aldri har vunnet Premier League, så er støtten til klubben enorm og fansene er noen av de mest lojale som finnes i fotballens verden. Deres fans er kjent for å blåse såpebobler på stadion og synge deres I'm forever Blowing Bubbles, som er en fryd både for øyet og øret."
+        },
+        "D003" : {
+          "Navn" : "Chelsea",
+          "ImageURL" : "https://thumblr.uniid.it/product/172229/cec7d7d150c8.jpg",
+          "Farge1" : "Blå",
+          "Farge2" : "Hvit",
+          "Merke" : "Nike",
+          "Pris"  : "899,-",
+          "Beskrivelse" : "Drakten er laget i Nikes Dri-FIT materiale. Dri-FIT er et pustende, hurtigtørkende, lettvektsmateriale som leder svette og fukt vekk fra kroppen. Materialet fordeler svette og fukt jevnt ut over drakten, og forbedrer dermed kroppens naturlige avkjølingsystem. Drakten har meshstriper som løper ned langs siden. Disse er elastiske og utvider seg når spilleren er i bevegelse for å øke luftventilasjonen. Drakten har en komfortabel v-hals som gir deg full bevegelsesfrihet."
+        },
+        "D004" : {
+          "Navn" : "Arsenal",
+          "ImageURL" : "https://thumblr.uniid.it/product/174970/53e52d07b4b4.jpg",
+          "Farge1" : "Rød",
+          "Farge2" : "Hvit",
+          "Merke" : "Puma",
+          "Pris"  : "899,-",
+          "Beskrivelse" : "Arsenal har vært en del av engelsk og internasjonal toppfotball i mange år. Faktisk har de kun rykket ned fra den øverste divisjonen én gang og det var så langt tilbake som i 1913. Det gjør at Arsenal er klubben med flest sesonger på rad i den øverste divisjonen i England. The Gunners er nok mest kjent for sesongen 2003/04, da Arséne Wenger og hans spillere lykkes å vinne ligatittelen uten å tape en eneste kamp."
+        },
+        "D005" : {
+          "Navn" : "Newcastle",
+          "ImageURL" : "https://thumblr.uniid.it/product/175122/f84e575479de.jpg",
+          "Farge1" : "Sort",
+          "Farge2" : "Hvit",
+          "Merke" : "Puma",
+          "Pris"  : "899,-",
+          "Beskrivelse" : " PUMA dryCELL er et pustende og hurtigtørkende lettvektsmateriale som fører fukt og svette bort fra kroppen, så du alltid etterlates tørr og komfortabel. Newcastle drakten er laget av 100% polyester."
+        }
+      },
+      "LaLiga" : {
+        "D001" : {
+          "Navn" : "Barcelona",
+          "ImageURL" : "https://thumblr.uniid.it/product/172459/22ab0e6bed0d.jpg",
+          "Farge1" : "Blå",
+          "Farge2" : "Rød",
+          "Merke" : "Puma",
+          "Pris"  : "899,-",
+          "Beskrivelse" : "Barcelona Fotballdrakt 18/19 Hjemme fra Nike. Dri-FIT-materialet tar vekk svetten fra kroppen, og hjelper til å holde deg tørr og komfortabel."
+        },
+        "D002" : {
+          "Navn" : "Atletico Madrid",
+          "ImageURL" : "https://thumblr.uniid.it/product/172284/233d84188962.jpg",
+          "Farge1" : "Rød",
+          "Farge2" : "Hvit",
+          "Merke" : "Nike",
+          "Pris"  : "899,-",
+          "Beskrivelse" : "Ateltico Madrids hjemmedrakt for sesongen 2018/19 fra Nike. Dri-FIT-materialet tar vekk svetten fra kroppen, og hjelper til å holde deg tørr og komfortabel."
+        },
+        "D003" : {
+          "Navn" : "Real Madrid",
+          "ImageURL" : "https://thumblr.uniid.it/product/173742/3878bf3a5daa.jpg",
+          "Farge1" : "Hvit",
+          "Farge2" : "Sort",
+          "Merke" : "Adidas",
+          "Pris"  : "899,-",
+          "Beskrivelse" : "Real Madrid Authentic Hjemmedrakt for sesongen 2018/19 fra adidas. I 1950-årene tok Real Madrid verden med storm i en helhvit drakt som bare viste et klubbemblem. Denne hjemmetrøyen gjør ære på den vågalt enkle designen for flere tiår siden."
+        }
+      },
+      "SerieA" : {
+        "D001" : {
+          "Navn" : "Milan",
+          "ImageURL" : "https://thumblr.uniid.it/product/175181/e44c55a5d227.jpg",
+          "Farge1" : "Sort",
+          "Farge2" : "Rød",
+          "Merke" : "Puma",
+          "Pris"  : "899,-",
+          "Beskrivelse" : "Dette er en authentic drakt som er laget i samme kvalitet som spillerne selv bruker under kamp. Drakten er laget i et lett vevet materiale som øker din naturlige bevegelsesfrihet."
+        },
+        "D002" : {
+          "Navn" : "Napoli",
+          "ImageURL" : "https://thumblr.uniid.it/product/178546/613edf7acb33.jpg",
+          "Farge1" : "Blå",
+          "Farge2" : "Rød",
+          "Merke" : "Kappa",
+          "Pris"  : "899,-",
+          "Beskrivelse" : "Napoli hjemmedrakt, som Sør-Italias fotballstolthet skal bruke i sesongen 2018/19. NB! Draktene har et tettsittende design, som gjør at vi anbefaler en størrelse større enn normalt."
+        },
+        "D003" : {
+          "Navn" : "Roma",
+          "ImageURL" : "https://thumblr.uniid.it/product/172287/02f57d3b66d0.jpg",
+          "Farge1" : "Rød",
+          "Farge2" : "Oransje",
+          "Merke" : "Nike",
+          "Pris"  : "899,-",
+          "Beskrivelse" : "Roma Fotballdrakt 18/19 Hjemme fra Nike. Dri-FIT-materialet tar vekk svetten fra kroppen, og hjelper til å holde deg tørr og komfortabel"
+        },
+        "D004" : {
+          "Navn" : "Juventus",
+          "ImageURL" : "https://thumblr.uniid.it/product/173649/e6c5f73c3445.jpg",
+          "Farge1" : "Hvit",
+          "Farge2" : "Sort",
+          "Merke" : "Adidas",
+          "Pris"  : "899,-",
+          "Beskrivelse" : "adidas Juventus hjemmedrakt 18/19 har fukttransporterende materiale og kileformede ermer som gir bedre bevegelsesfrihet."
+        }
+      }
+    },
+    "Baller" : {
+      "Nike" : {
+        "B001" : {
+          "Navn" : "Game Over",
+          "ImageURL" : "https://thumblr.uniid.it/product/181443/6e51e2028c9d.jpg",
+          "Farge1" : "Rød",
+          "Farge2" : "Sort",
+          "Pris" : "189,-",
+          "Beskrivelse" : "Nike Game Over fotball har en forsterket gummiblære for jevn ballfølelse og et mønster i kontrastfarger som gjør den lett å følge."
+        },
+        "B002" : {
+          "Navn" : "Veer",
+          "ImageURL" : "https://thumblr.uniid.it/product/184603/bd1d3cd0df31.jpg",
+          "Farge1" : "Hvit",
+          "Farge2" : "Blå",
+          "Pris" : "249,-",
+          "Beskrivelse" : "Nike Veer fotball fra den populære Phantom-kolleksjonen. Modellen er oppbygget rundt det klassiske 32-panels designet som holder ballen stabilt i luften."
+        },
+        "B003" : {
+          "Navn" : "Venom",
+          "ImageURL" : "https://thumblr.uniid.it/product/184609/c741f9afd1a6.jpg",
+          "Farge1" : "Hvit",
+          "Farge2" : "Sort",
+          "Pris" : "189,-",
+          "Beskrivelse" : "Nike Phantom Venom-fotballen har grafikk i høy kontrast inspirert av Phantom Venom-fotballskoene. Den har et slitesterkt design og holder utmerket på luften."
+        },
+        "B004" : {
+          "Navn" : "Dois Golaços",
+          "ImageURL" : "https://thumblr.uniid.it/product/181466/0799d4868b82.jpg",
+          "Farge1" : "Sort",
+          "Farge2" : "Gull",
+          "Pris" : "269,-",
+          "Beskrivelse" : "Nike Dois Golaços er laget til futsal. Blæren sørger for en dempet sprett som gjør at du lettere kan kontrollere ballen på harde overflater. Den sørger også for at ballen holder godt på luften."
+        }
+      },
+      "Adidas" : {
+        "B001" : {
+          "Navn" : "Team",
+          "ImageURL" : "https://thumblr.uniid.it/product/170652/52862cd7d29a.jpg",
+          "Farge1" : "Hvit",
+          "Farge2" : "Rosa",
+          "Pris" : "329,-",
+          "Beskrivelse" : "adidas Team Match Pro er en utrolig god matchball. Kontrollert av FIFA for størrelse, vekt, sprett og vannabsorpsjon."
+        },
+        "B002" : {
+          "Navn" : "Top Capitano",
+          "ImageURL" : "https://thumblr.uniid.it/product/179504/aaa64294a4cc.jpg",
+          "Farge1" : "Gul",
+          "Farge2" : "Rød",
+          "Pris" : "229,-",
+          "Beskrivelse" : "adidas Conext 19 Top Capitano Fotball med moderne design. Ballen er maskinsydd som sikrer god holdbarhet og slitestyrke."
+        },
+        "B003" : {
+          "Navn" : "Virtuso",
+          "ImageURL" : "https://thumblr.uniid.it/product/179518/01bf90407dfa.jpg",
+          "Farge1" : "Hvit",
+          "Farge2" : "Grå",
+          "Pris" : "219,-",
+          "Beskrivelse" : "Fotball fra adidas i moderne design, som er ideell til småspill i hagen. Ballen er laget med maskinsydd konstruksjon, og består av 100%-TPU-overflate, som gir en myk berøring og høy slitestyrke. Laget med butylblære for å sikre minimalt tap av luft."
+        },
+        "B004" : {
+          "Navn" : "MLS",
+          "ImageURL" : "https://thumblr.uniid.it/product/179513/6732c461679b.jpg",
+          "Farge1" : "Blå",
+          "Farge2" : "Rød",
+          "Pris" : "1549,-",
+          "Beskrivelse" : "Dette er den offisielle MLS-kampballen. Overflaten er termisk limt og uten sømmer, hvilket gir en mer stabil og forutsigbar ballbane og mindre vannopptak. De ulike lagene og blæren er laget av kvalitetsmaterialer, så du får maksimal yteevne på banen. Fotballen er FIFA-merket for rundhet, vekt, sprett og vanninntak."
+        }
+      },
+      "Puma" : {
+        "B001" : {
+          "Navn" : "Hacked",
+          "ImageURL" : "https://thumblr.uniid.it/product/185728/3a6d0fe9ef6e.jpg",
+          "Farge1" : "Grønn",
+          "Farge2" : "Sort",
+          "Pris" : "199,-",
+          "Beskrivelse" : "Hybridfotball fra PUMA som er laget for å motstå vann, og for å holde på luften under hardt press. Ballen er velegnet til treningen, såvel som til lek utenfor banen. Rett og slett en god ball til alle som elsker fotball."
+        },
+        "B002" : {
+          "Navn" : "Future Flare",
+          "ImageURL" : "https://thumblr.uniid.it/product/182613/f647ff862fda.jpg",
+          "Farge1" : "Blå",
+          "Farge2" : "Rød",
+          "Pris" : "149,-",
+          "Beskrivelse" : "Future-fotballen er laget for å være vanntett og for å holde ekstra godt på luften. Den er laget av polyester og ethylen-vinylacetat (EVA), og med gummiblære, noe som gir en myk følelse og et godt svev"
+        },
+        "B003" : {
+          "Navn" : "Uprising",
+          "ImageURL" : "https://thumblr.uniid.it/product/174923/466992e8026c.jpg",
+          "Farge1" : "Hvit",
+          "Farge2" : "Oransje",
+          "Pris" : "499,-",
+          "Beskrivelse" : "Kvalitetsball fra PUMA. Futsalblære som sikrer lav sprett. FIFA Quality Pro er høyeste kvalitetsgaranti en ball kan oppnå og det har PUMA UPRISING"
+        },
+        "B004" : {
+          "Navn" : "Future",
+          "ImageURL" : "https://thumblr.uniid.it/product/174934/e7f7230b1e2f.jpg",
+          "Farge1" : "Grønn",
+          "Farge2" : "Sort",
+          "Pris" : "199,-",
+          "Beskrivelse" : "Puma Future Pulse Fotball er en klassisk treningsball med Future-design."
+        }
+      }
+    },
+    "Sko" : {
+      "Nike" : {
+        "S001" : {
+          "Navn" : "NRJ silencio",
+          "ImageURL" : "https://thumblr.uniid.it/product/181399/d7ca3d80f071.jpg",
+          "Farge1" : "Hvit",
+          "Farge2" : "Rød",
+          "Pris" : "2799,-",
+          "Beskrivelse" : "Mercurial Vapor XII Elite AG-Pro er toppmodellen fra Nikes speedsilo Mercurial. Overdel i Nikes Flyknit 360-konstruksjon som gir en tett og fleksibel passform. AG-Pro-knotter for spill på kunstgressbaner."
+        },
+        "S002" : {
+          "Navn" : "Mercurial Euphoria",
+          "ImageURL" : "https://thumblr.uniid.it/product/184769/ec33affa55b0.jpg",
+          "Farge1" : "Oransje",
+          "Farge2" : "Hvit",
+          "Pris" : "2899,-",
+          "Beskrivelse" : "Mercurial Superfly VI Elite AG-Pro er toppmodellen fra Nikes speedsilo Mercurial. Overdel i Nikes Flyknit 360-konstruksjon som gir en tett og fleksibel passform. AG-Pro-knotter for spill på nyere kunstgressbaner."
+        },
+        "S003" : {
+          "Navn" : "Phantom Euphoria",
+          "ImageURL" : "https://thumblr.uniid.it/product/184774/5d468371f1ef.jpg",
+          "Farge1" : "Blå",
+          "Farge2" : "Hvit",
+          "Pris" : "2899,-",
+          "Beskrivelse" : "Phantom Vision Elite AG-Pro er toppmodellen fra Nikes Phantom-linje. Designet for ultimat komfort og kontroll. Innvendig Quadfit-overdel tilpasser seg fotens fasong og bidrar til støtte i alle retninger. AG-Pro-knotter for spill på kunstgressbaner."
+        },
+        "S004" : {
+          "Navn" : "Superfly LVL UP",
+          "ImageURL" : "https://thumblr.uniid.it/product/184708/6c7dfd2d20ad.jpg",
+          "Farge1" : "Grå",
+          "Farge2" : "Sort",
+          "Pris" : "3149,-",
+          "Beskrivelse" : "Mercurial Superfly VI Elite AG-Pro er toppmodellen fra Nikes speedsilo Mercurial. Overdel i Nikes Flyknit 360-konstruksjon som gir en tett og fleksibel passform. AG-Pro-knotter for spill på nyere kunstgressbaner."
+        },
+        "S005" : {
+          "Navn" : "Tiempo Black Lux",
+          "ImageURL" : "https://thumblr.uniid.it/product/181378/5302b8b55460.jpg",
+          "Farge1" : "Sort",
+          "Farge2" : "Gull",
+          "Pris" : "2249,-",
+          "Beskrivelse" : "Tiempo Legend VII Elite FG er toppmodellen fra Nikes Tiempo-linje. Overdel i supermykt kenguruskinn som former seg perfekt etter foten din fra første stund. Flyknit-materiale rundt midtfoten og hælen bidrar til en mer dynamisk og fleksibel passform. FG-knotter for spill på naturgressbaner."
+        }
+      },
+      "Adidas" : {
+        "S001" : {
+          "Navn" : "Nemeziz",
+          "ImageURL" : "https://thumblr.uniid.it/product/179289/4d210230fdb8.jpg",
+          "Farge1" : "Hvit",
+          "Farge2" : "Rosa",
+          "Pris" : "2899,-",
+          "Beskrivelse" : "Nemeziz 18.1 er en toppmodell fra adidas' Nemeziz-linje. Overdel i mykt og fleksibelt Agility Knit 2.0-materiale som gir perfekt passform fra første stund. FG/AG-yttersåle for spill på naturgress og nyere kunstgressbaner."
+        },
+        "S002" : {
+          "Navn" : "Predator",
+          "ImageURL" : "https://thumblr.uniid.it/product/179310/e18551a60546.jpg",
+          "Farge1" : "Hvit",
+          "Farge2" : "Blå",
+          "Pris" : "2899,-",
+          "Beskrivelse" : "Predator 19+ er toppmodellen fra Predator-linjen til adidas. Overdel i supermykt og smidig Primeknit-materiale med riller for bedre ballkontroll. FG/AG-knotter for spill på naturgress og nyere kunstgressbaner."
+        },
+        "S003" : {
+          "Navn" : "X 18+",
+          "ImageURL" : "https://thumblr.uniid.it/product/179251/0c2b6a6b4cbe.jpg",
+          "Farge1" : "Hvit",
+          "Farge2" : "Gul",
+          "Pris" : "2899,-",
+          "Beskrivelse" : "X 18+ FG/AG er toppmodellen fra adidas' X-linje. Overdel i elastisk materiale, som sikrer at foten holdes på plass i skoene og gir økt stabilitet og støtte. FG/AG-yttersåle for spill på naturgress og nyere kunstgressbaner."
+        },
+        "S004" : {
+          "Navn" : "Archetic",
+          "ImageURL" : "https://thumblr.uniid.it/product/179290/81310e71c12b.jpg",
+          "Farge1" : "Sort",
+          "Farge2" : "Blå",
+          "Pris" : "2999,-",
+          "Beskrivelse" : "Archetic 18.1 er en toppmodell fra adidas' Nemeziz-linje. Overdel i mykt og fleksibelt Agility Knit 2.0-materiale som gir perfekt passform fra første stund. FG/AG-yttersåle for spill på naturgress og nyere kunstgressbaner."
+        }
+      },
+      "Puma" : {
+        "S001" : {
+          "Navn" : "Power Up",
+          "ImageURL" : "https://thumblr.uniid.it/product/180210/67b80d172afa.jpg",
+          "Farge1" : "Rød",
+          "Farge2" : "Blå",
+          "Pris" : "1649,-",
+          "Beskrivelse" : "POWER UP 19.1 NETFIT er toppmodellen fra PUMAs FUTURE-silo. Overdel i mykt og smidig tekstilmateriale i kombinasjon med det innovative NETFIT-systemet, som tilbyr uendelige snøringsmuligheter. FG/AG-knotter for spill på naturgress og nyere kunstgressbaner."
+        },
+        "S002" : {
+          "Navn" : "Hacked",
+          "ImageURL" : "https://thumblr.uniid.it/product/180214/439f2694a2eb.jpg",
+          "Farge1" : "Sort",
+          "Farge2" : "Grønn",
+          "Pris" : "1999,-",
+          "Beskrivelse" : "HACKED 19.1 NETFIT er toppmodellen fra PUMAs FUTURE-silo. Overdel i mykt og smidig tekstilmateriale i kombinasjon med det innovative NETFIT-systemet, som tilbyr uendelige snøringsmuligheter. FG/AG-knotter for spill på naturgress og nyere kunstgressbaner."
+        },
+        "S003" : {
+          "Navn" : "Glory",
+          "ImageURL" : "https://thumblr.uniid.it/product/175256/598821b9ab53.jpg",
+          "Farge1" : "Rose Gold",
+          "Farge2" : "Sort",
+          "Pris" : "1619,-",
+          "Beskrivelse" : "Glory er laget av mykt og smidig kenguruskinn, som sørger for en overlegen komfort, unik passform og lang levetid, kombinert med en fremragende ballkontroll. Lukkesystemet på skoen er PUMAs innovative fusefit-teknologi, som gjør at man kan tilpasse lissene på en individuell måte"
+        }
+      }
+    }
+  }
+}

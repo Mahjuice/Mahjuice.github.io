@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dyreklinikken</title>
+    <!-- Lim inn kode fra firebase her -->
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.5/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyB2cCLuVtbZpT0ABi4vUpRxwfRvA2qOSeM",
+        authDomain: "dyreklinikk-2e41c.firebaseapp.com",
+        databaseURL: "https://dyreklinikk-2e41c.firebaseio.com",
+        projectId: "dyreklinikk-2e41c",
+        storageBucket: "dyreklinikk-2e41c.appspot.com",
+        messagingSenderId: "219547423974"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <style>
+      #alleDyr{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5px;
+        width: 90%;
+        margin: auto;
+      }
+      .Dyr{
+        background-color: lightgrey;
+        border-radius: 3px;
+      }
+      #alleDyr img{
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <button type="button"  onclick="visKatteneAlfabetisk()">Oppgave 3a</button> <!-- Gjør ferdig koblingene for alle knappene -->
+        <button type="button"  onclick="visEldsteHunder()">Oppgave 3b</button>
+        <button type="button"  onclick="visBeigedyr()">Oppgave 3c</button>
+        <button type="button"  onclick="visDyrFraTtilM()">Oppgave 3d</button>
+      </nav>
+    </header>
+    <main id="alleDyr">
+
+    </main>
+
+    <script type="text/javascript">
+      //Referanser til HTML-elementer
+      const main = document.querySelector("main");
+
+      //Skriv referanser til database under her:
+      const db = firebase.database();
+      const hunder = db.ref("Dyr/Hunder");
+      const katter = db.ref("Dyr/Katter");
+
+
+      // Javascript-funksjon for å generere HTML-kode for dyr
+      function genererHTML(snapshot){
+        let dyr = snapshot.val();
+        main.innerHTML +=`
+            <article class="Dyr">
+              <h1>${dyr.Navn}</h1>
+              <img src="${dyr.Bilde}" alt="">
+              <p>Farge: ${dyr.Farge1}, ${dyr.Farge2}</p>
+              <p>Alder: ${dyr.Alder}</p>
+            </article>
+        `;
+      }
+
+      // Funksjon som viser alle dyr
+      function visAlle(){
+        main.innerHTML = ``; // sletter innholdet i main.
+        hunder.on("child_added",genererHTML);
+        katter.on("child_added", genererHTML);
+      }
+
+      // Lag egne funksjoner som tilfredstiller spørringene 3A, 3B, 3C og 3D her:
+      function visKatteneAlfabetisk(){
+        main.innerHTML = ``;
+        katter.orderByChild("Navn").on("child_added",genererHTML);
+      }
+      function visEldsteHunder(){
+        main.innerHTML = ``;
+        hunder.orderByChild("Alder").limitToLast(3).on("child_added",genererHTML);
+      }
+      function visBeigedyr(){
+        main.innerHTML =``;
+        katter.orderByChild("Farge1").equalTo("Beige").on("child_added",genererHTML);
+        katter.orderByChild("Farge2").equalTo("Beige").on("child_added",genererHTML);
+        hunder.orderByChild("Farge1").equalTo("Beige").on("child_added",genererHTML);
+        hunder.orderByChild("Farge2").equalTo("Beige").on("child_added",genererHTML);
+      }
+      function visDyrFraTtilM(){
+        main.innerHTML = ``;
+        katter.orderByChild("Navn").startAt("M").endAt("U").on("child_added",genererHTML);
+        hunder.orderByChild("Navn").startAt("M").endAt("U").on("child_added",genererHTML);
+      }
+      visAlle(); // Funksjon som kjøres når siden lastes
+
+    </script>
+
+  </body>
+</html>
